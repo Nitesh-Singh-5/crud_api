@@ -43,5 +43,3 @@ def update_data(request,id):
     return render(request,'enroll/updatestudent.html',{'form':fm})
 
 
-
-
