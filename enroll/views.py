@@ -45,4 +45,3 @@ def update_data(request,id):
 
 
 
-
