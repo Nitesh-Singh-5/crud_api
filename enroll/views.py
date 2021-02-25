@@ -30,16 +30,5 @@ def delete_data(request,id):
         return HttpResponsePermanentRedirect('/')
 
 
-# This Function will Edit
-def update_data(request,id):
-    if request.method == 'POST':
-        pi= User.objects.get(pk=1)
-        fm= StudentRegistration(request.POST, instance=pi)
-        if fm.is_valid():
-            fm.save()
-    else:
-        pi= User.objects.get(pk=1)
-        fm= StudentRegistration(instance=pi)
-    return render(request,'enroll/updatestudent.html',{'form':fm})
 
 
