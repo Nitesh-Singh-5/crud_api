@@ -30,10 +30,6 @@ def delete_data(request,id):
         return HttpResponsePermanentRedirect('/')
 
 
-
-
-
-
 # This Function will Edit
 def update_data(request,id):
     if request.method == 'POST':
