@@ -2,8 +2,6 @@ from django.shortcuts import render, HttpResponsePermanentRedirect
 from .forms import StudentRegistration
 from .models import User
 
-
-
 # This Function will add new item and show all item
 def add_show(request):
     if request.method == 'POST':
