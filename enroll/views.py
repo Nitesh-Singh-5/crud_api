@@ -2,8 +2,6 @@ from django.shortcuts import render, HttpResponsePermanentRedirect
 from .forms import StudentRegistration
 from .models import User
 
-
-
 # This Function will add new item and show all item
 def add_show(request):
     if request.method == 'POST':
@@ -28,7 +26,6 @@ def delete_data(request,id):
         pi = User.objects.get(pk=id) 
         pi.delete()
         return HttpResponsePermanentRedirect('/')
-
 
 # This Function will Edit
 def update_data(request,id):
