@@ -36,7 +36,7 @@ Any users can use the API services, for that reason if we try this:
 ```
 we get:
 ```
- [{"id":2,"name":"shreya","email":"shreya123@gmail.com","password":"shreya"},{"id":4,"name":"harry","email":"hdfj@gnail.com","password":"jkwhslkhx"},{"id":5,"name":"Nitesh","email":"ns98738698@gmail.com","password":"Nitesh"}]
+ [{"id":2,"name":"shreya","email":"shreya123@gmail.com","password":"shreya"},{"id":4,"name":"harry","email":"hdfj@gnail.com","password":"jkwhslkhx"},{"id":5,"name":"Nitesh","email":"ns98738698@gmail.com","password":"Nitesh"},{"id":6,"name":"shivam","email":"shivam123@gmail.com","password":"shivam123"}]
 ```
 we get the movie with id = 5:
 ```
