@@ -38,13 +38,9 @@ we get:
 ```
  [{"id":2,"name":"shreya","email":"shreya123@gmail.com","password":"shreya"},{"id":4,"name":"harry","email":"hdfj@gnail.com","password":"jkwhslkhx"},{"id":5,"name":"Nitesh","email":"ns98738698@gmail.com","password":"Nitesh"}]
 ```
-Instead, if we try to access with credentials:
+we get the movie with id = 5
 ```
-	http http://127.0.0.1:8000/api/v1/movies/3 "Authorization: Token 7530ec9186a31a5b3dd8d03d84e34f80941391e3"
-```
-we get the movie with id = 3
-```
-{  "title":  "Avengers",  "genre":  "Superheroes",  "year":  2012,  "creator":  "admin"  }
+{"id":5,"name":"Nitesh","email":"ns98738698@gmail.com","password":"Nitesh"}
 ```
 
 ## Login and Tokens
