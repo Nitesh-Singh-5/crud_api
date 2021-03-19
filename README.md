@@ -32,11 +32,11 @@ First, we have to start up Django's development server.
 ```
 Any users can use the API services, for that reason if we try this:
 ```
-	http  http://127.0.0.1:8000/api/v1/movies/3
+	http://localhost:8000/api/crud/
 ```
 we get:
 ```
- http://localhost:8000/api/crud/
+ [{"id":2,"name":"shreya","email":"shreya123@gmail.com","password":"shreya"},{"id":4,"name":"harry","email":"hdfj@gnail.com","password":"jkwhslkhx"},{"id":5,"name":"Nitesh","email":"ns98738698@gmail.com","password":"Nitesh"}]
 ```
 Instead, if we try to access with credentials:
 ```
