@@ -26,7 +26,7 @@ Endpoint |HTTP Method | CRUD Method | Result
 `crud/:id` | PUT | UPDATE | Update a user details
 `crud/:id` | DELETE | DELETE | Delete a user details
 
-First, we have to start up Django's development server.
+First, we have to start up Django's development server:
 ```
 	python manage.py runserver
 ```
@@ -38,7 +38,7 @@ we get:
 ```
  [{"id":2,"name":"shreya","email":"shreya123@gmail.com","password":"shreya"},{"id":4,"name":"harry","email":"hdfj@gnail.com","password":"jkwhslkhx"},{"id":5,"name":"Nitesh","email":"ns98738698@gmail.com","password":"Nitesh"}]
 ```
-we get the movie with id = 5
+we get the movie with id = 5:
 ```
 {"id":5,"name":"Nitesh","email":"ns98738698@gmail.com","password":"Nitesh"}
 ```
