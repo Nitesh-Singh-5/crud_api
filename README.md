@@ -8,9 +8,9 @@
 
 ## Installation
 ```
-	pip install django
-	pip install djangorestframework
-	pip install django-rest-auth
+pip install django
+pip install djangorestframework
+pip install django-rest-auth
 ```
 
 ## Structure
@@ -28,11 +28,11 @@ Endpoint |HTTP Method | CRUD Method | Result
 
 First, we have to start up Django's development server:
 ```
-	python manage.py runserver
+python manage.py runserver
 ```
 Any users can use the API services, for that reason if we try this:
 ```
-	
+http://localhost:8000/api/crud/	
 ```
 we get:
 ```
