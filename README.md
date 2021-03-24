@@ -32,7 +32,7 @@ python manage.py runserver
 ```
 Any users can use the API services, for that reason if we try this:
 ```
-http://localhost:8000/api/crud/	
+	
 ```
 we get:
 ```
